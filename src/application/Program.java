@@ -42,11 +42,9 @@ public class Program {
             }else  if (!checkOut.after(checkIn)){
                 System.out.println("Error in reservation! The check-out date must be after check-in date");
             }else {
+                reservation.updateDates(checkIn, checkOut);
                 System.out.println("Reservation: " + reservation);
             }
-
-            reservation.updateDates(checkIn, checkOut);
-            System.out.println("Reservation: " + reservation);
         }
 
         sc.close();
