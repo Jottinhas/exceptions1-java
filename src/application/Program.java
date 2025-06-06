@@ -14,6 +14,7 @@ public class Program {
         //sugestão de divisão de pacotes 'model'
         //model - entities - enum - exception - services
         //TRY - CATCH É FODAAAA
+        //Throw lança exceção e corta o metodo
 
         Scanner sc = new Scanner(System.in);
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
